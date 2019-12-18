@@ -4,6 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import api from '@/api/api'
+import './../static/css/style.less'
+import { InfiniteScroll  } from 'mint-ui';
+Vue.use(InfiniteScroll);
 Vue.config.productionTip = false;
 Vue.prototype.$api = api;
 /* eslint-disable no-new */
